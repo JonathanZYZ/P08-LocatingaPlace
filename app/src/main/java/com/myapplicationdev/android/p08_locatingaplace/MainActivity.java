@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements
                 .snippet("Block 333, Admiralty Ave 3, 765654 \n" +
                         "Operating hours: 10am-5pm\n" +
                         "Tel:65433456\n")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
 
         LatLng poi_Central = new LatLng(1.314097,103.8701533);
         Marker central = map.addMarker(new
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity implements
                 .snippet("Block 3A, Orchard Ave 3, 134542 \n" +
                         "Operating hours: 11am-8pm\n" +
                         "Tel:67788652\n")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
 
         LatLng poi_East = new LatLng(1.3488823,103.9352603);
         Marker east = map.addMarker(new
